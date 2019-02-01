@@ -17,6 +17,9 @@
 	    make
 	```
 - Tracing your pytorch model to torch script
+	``` python model_trace.py
+	```
+- mv `.pt` file into models folder
 - Test the app <app> <model> <image> <label>
 	
 ---
