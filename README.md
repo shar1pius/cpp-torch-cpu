@@ -18,3 +18,12 @@
 	```
 - Tracing your pytorch model to torch script
 - Test the app ./example-app ../model.pt ../dog.png ../synset_words.txt
+	
+---
+#### [Colab Notebook : link](https://colab.research.google.com/drive/1A7NTVY4042AD08kaKCOzwKb90FOxmF_M)
+
+---
+sample
+![](./images/pizza.png ) as ```n07873807 pizza, pizza pie, score: 1.41523```
+
+
