@@ -8,16 +8,16 @@
 ## Instructions
 
 - ```pip install -r requirmets.txt```
-- Donwload LibTorch cpu.
-- Clone repository ```git clone```
+- Donwload LibTorch cpu & Extract it. [link](https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-latest.zip)
+- Clone repository ```git clone https://github.com/Sharwon/cpp-torch-cpu.git```
 - Cmake
-	``` cd torch_cpp
+	``` cd cpp-torch-cpu
 	    mkdir build && cd build
 	    cmake -DCMAKE_PREFIX_PATH=<full path to libtorch folder> ..
 	    make
 	```
 - Tracing your pytorch model to torch script
-- Test the app ./example-app ../model.pt ../dog.png ../synset_words.txt
+- Test the app <app> <model> <image> <label>
 	
 ---
 #### [Colab Notebook : link](https://colab.research.google.com/drive/1A7NTVY4042AD08kaKCOzwKb90FOxmF_M)
