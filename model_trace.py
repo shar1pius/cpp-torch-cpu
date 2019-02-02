@@ -18,5 +18,5 @@ example = torch.rand(1, 3, 224, 224)
 traced_script_module = torch.jit.trace(model, example)
 
 # save the model torch script.
-traced_script_module.save("models/imagenet.pt")
+traced_script_module.save("imagenet.pt")
 
