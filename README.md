@@ -19,7 +19,7 @@
 - Tracing your pytorch model to torch script
 	`python model_trace.py`
 - mv `.pt` file into models folder
-- Test the app <app> <model> <image> <label>
+- Test the app ```<app> <model> <image> <label>```
 	
 ---
 #### [Colab Notebook : link](https://colab.research.google.com/drive/1A7NTVY4042AD08kaKCOzwKb90FOxmF_M)
